@@ -14,7 +14,7 @@ public class CollectableSingle : MonoBehaviour
     private void OnTriggerEnter(Collider other) {
         if(other.CompareTag("Player")){
             Debug.Log("Bravo!");
-            pickUpObjectEvent.Raise();
+            pickUpObjectEvent.Raise(this, pickUpItemType.point);
         }
     }
 }

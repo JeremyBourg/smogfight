@@ -8,8 +8,9 @@ public class LevelManager : MonoBehaviour
     [SerializeField]
     private LevelInfo levelInfo;
 
-    public void PickupObject(Component sender, object data){
+    public void PickUpObject(Component sender, object data){
         Debug.Log("Score: " + data);
         
+        levelInfo.nbrObjectsCollected++;
     }
 }
