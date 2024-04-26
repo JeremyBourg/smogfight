@@ -26,6 +26,17 @@ public class LevelManager : MonoBehaviour
     }
 
     public void LoadSceneNiveau(){
-        SceneManager.LoadScene("SceneNiveau");
+        if(levelInfo.levelName != "" && levelInfo.playerName != ""){
+            SceneManager.LoadScene("SceneNiveau");
+        }
+        else{
+            SendInputError();
+        } 
+    }
+
+    // Change placeholder on attempt to load scene with empty field
+    // bonus: si temps libre, essayer de faire l'écran shaker.
+    private void SendInputError(){
+
     }
 }
