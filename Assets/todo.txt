@@ -1,0 +1,30 @@
+Supprimer quand élément fini
+
+Environnement:
+
+Trouver textures pour terrain
+Trouver textures trottoir (béton)
+Trouver modèles : Arbres, fleurs, voitures, décorations de parc, pancarte (pour nom ville)
+
+Intégrer trottoir et tous les modèles.
+S'assurer que les objets on des colliders.
+
+Ennemi:
+
+Trouver modèle pour nuage
+Trouver particules de smog (fumée noire, mais je peux probablement prendre fumée normale et changer albedo)
+Faire NavMesh
+Trouver modèle voitures, faire le code
+
+Collecte:
+Trouver modèles déchets
+Trouver modèle bac à déchets
+
+UI
+Trouver assets UI
+Trouver background pour scène accueil
+
+Système HP
+Système Timer
+
+Scène fin
