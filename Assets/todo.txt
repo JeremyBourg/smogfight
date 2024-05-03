@@ -4,7 +4,7 @@ Environnement:
 
 Trouver textures pour terrain
 Trouver textures trottoir (béton)
-Trouver modèles : Arbres, fleurs, voitures, décorations de parc, pancarte (pour nom ville)
+Trouver modèles : Fleurs, voitures, décorations de parc, pancarte (pour nom ville)
 
 Intégrer trottoir et tous les modèles.
 S'assurer que les objets on des colliders.
@@ -12,7 +12,6 @@ S'assurer que les objets on des colliders.
 Ennemi:
 
 Trouver modèle pour nuage
-Trouver particules de smog (fumée noire, mais je peux probablement prendre fumée normale et changer albedo)
 Faire NavMesh
 Trouver modèle voitures, faire le code
 
