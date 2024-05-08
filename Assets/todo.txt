@@ -13,7 +13,8 @@ Ennemi:
 
 Trouver modèle pour nuage
 Faire NavMesh
-Trouver modèle voitures, faire le code
+Animer roues voitures, faire script collision = lose hp
+Ajouter Exhaust smoke
 
 Collecte:
 Trouver modèles déchets
