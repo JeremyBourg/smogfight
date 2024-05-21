@@ -6,6 +6,8 @@ public class MoveCar : MonoBehaviour
 {
 
    private float speed = 25;
+   
+   public GameEvent carCollisionEvent;
 
     // Update is called once per frame
     void Update()

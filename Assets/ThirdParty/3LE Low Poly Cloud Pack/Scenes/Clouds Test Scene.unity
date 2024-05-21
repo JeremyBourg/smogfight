@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: 5f6f8520d8fe86a428f92d1c5fa2e550,
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 3e81cb43f98de5f408a5429bef967dc7,
     type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -175,7 +175,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: bcea47ee6f529ae49bd4e17c7203013a, type: 3}
 --- !u!4 &2379502 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 496290, guid: bcea47ee6f529ae49bd4e17c7203013a,
+  m_CorrespondingSourceObject: {fileID: 9223372036854775806, guid: bcea47ee6f529ae49bd4e17c7203013a,
     type: 3}
   m_PrefabInstance: {fileID: 2379501}
   m_PrefabAsset: {fileID: 0}
@@ -332,7 +332,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: decc2ba5add7b984aab134a07b436422, type: 3}
 --- !u!4 &268819768 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 454398, guid: decc2ba5add7b984aab134a07b436422,
+  m_CorrespondingSourceObject: {fileID: 9223372036854775806, guid: decc2ba5add7b984aab134a07b436422,
     type: 3}
   m_PrefabInstance: {fileID: 268819767}
   m_PrefabAsset: {fileID: 0}
@@ -375,7 +375,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &342050422 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 493368, guid: 89b3a320a09b72848bd1a24f275e683e,
+  m_CorrespondingSourceObject: {fileID: 9223372036854775806, guid: 89b3a320a09b72848bd1a24f275e683e,
     type: 3}
   m_PrefabInstance: {fileID: 730070251}
   m_PrefabAsset: {fileID: 0}
@@ -465,7 +465,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 01bebc0732355504095ed95d90508654, type: 3}
 --- !u!4 &361119836 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 456514, guid: 01bebc0732355504095ed95d90508654,
+  m_CorrespondingSourceObject: {fileID: 9223372036854775806, guid: 01bebc0732355504095ed95d90508654,
     type: 3}
   m_PrefabInstance: {fileID: 361119835}
   m_PrefabAsset: {fileID: 0}
@@ -1064,7 +1064,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: b94cc7cff6b6e2645a5e7c1ce686314b, type: 3}
 --- !u!4 &1131864858 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 437224, guid: b94cc7cff6b6e2645a5e7c1ce686314b,
+  m_CorrespondingSourceObject: {fileID: 9223372036854775806, guid: b94cc7cff6b6e2645a5e7c1ce686314b,
     type: 3}
   m_PrefabInstance: {fileID: 1088654894}
   m_PrefabAsset: {fileID: 0}
@@ -1115,7 +1115,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 20822131f7a068849967c4eb0328c80d, type: 3}
 --- !u!4 &1141387718 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 402026, guid: 20822131f7a068849967c4eb0328c80d,
+  m_CorrespondingSourceObject: {fileID: 9223372036854775806, guid: 20822131f7a068849967c4eb0328c80d,
     type: 3}
   m_PrefabInstance: {fileID: 1141387717}
   m_PrefabAsset: {fileID: 0}
@@ -1237,7 +1237,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: e5a9e0b66bb8a8b47a28819231a34fc2, type: 3}
 --- !u!4 &1226044382 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 429004, guid: e5a9e0b66bb8a8b47a28819231a34fc2,
+  m_CorrespondingSourceObject: {fileID: 9223372036854775806, guid: e5a9e0b66bb8a8b47a28819231a34fc2,
     type: 3}
   m_PrefabInstance: {fileID: 1226044381}
   m_PrefabAsset: {fileID: 0}
@@ -1292,7 +1292,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 7a7ada80b7910bb47aa7c5434361abb6, type: 3}
 --- !u!4 &1337385938 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 469812, guid: 7a7ada80b7910bb47aa7c5434361abb6,
+  m_CorrespondingSourceObject: {fileID: 9223372036854775806, guid: 7a7ada80b7910bb47aa7c5434361abb6,
     type: 3}
   m_PrefabInstance: {fileID: 1337385937}
   m_PrefabAsset: {fileID: 0}
@@ -1571,7 +1571,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 9ee1a2ad264aa2040bef16ca093d6046, type: 3}
 --- !u!4 &1771770132 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 464662, guid: 9ee1a2ad264aa2040bef16ca093d6046,
+  m_CorrespondingSourceObject: {fileID: 9223372036854775806, guid: 9ee1a2ad264aa2040bef16ca093d6046,
     type: 3}
   m_PrefabInstance: {fileID: 1771770131}
   m_PrefabAsset: {fileID: 0}

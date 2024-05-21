@@ -7634,7 +7634,7 @@ GameObject:
   - component: {fileID: 2864926889589151797}
   m_Layer: 7
   m_Name: 80s_Generic_midsize_sedan_-_Low_poly_model
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7715,6 +7715,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f7fc73ecbd2f7b4da09d9ec200d97e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  carCollisionEvent: {fileID: 0}
 --- !u!1 &7907045492690562259
 GameObject:
   m_ObjectHideFlags: 0

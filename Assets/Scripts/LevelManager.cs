@@ -39,4 +39,16 @@ public class LevelManager : MonoBehaviour
     private void SendInputError(){
 
     }
+
+
+    private void Start() {
+        levelInfo.healthPoints = 3;
+    }
+
+    public void ContactWithEnemy(){
+        levelInfo.healthPoints--;
+        if(levelInfo.healthPoints <= 0){
+            SceneManager.LoadScene("SceneLose");
+        }  
+    }
 }

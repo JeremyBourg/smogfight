@@ -5,7 +5,8 @@ public class LevelInfo : ScriptableObject
 {
     public int nbrObjectsCollectGoal;
     public int nbrObjectsCollected;
-    public int score;
+    public int healthPoints;
+    public float timeRemaining;
     public int timeLimitInSeconds;
     public string levelName;
     public string playerName;

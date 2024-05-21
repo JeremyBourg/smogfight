@@ -5381,7 +5381,7 @@ GameObject:
   - component: {fileID: 8591341954261355961}
   m_Layer: 7
   m_Name: '''90_Light_Commercial_Truck_-_Low_poly_model'
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5414,7 +5414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f7fc73ecbd2f7b4da09d9ec200d97e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  carCollisionEvent: {fileID: 0}
 --- !u!54 &453143499768696229
 Rigidbody:
   m_ObjectHideFlags: 0
