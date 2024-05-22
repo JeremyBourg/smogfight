@@ -53,7 +53,6 @@ public class LevelManager : MonoBehaviour
     }
 
     public void TrashItemEvent() {
-        levelInfo.nbrObjectsRemaining--;
         levelInfo.hasObject=false;
     }
 }

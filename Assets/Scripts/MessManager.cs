@@ -23,6 +23,7 @@ public class MessManager : MonoBehaviour
     }
 
     public void UpdateText(){
+        levelInfo.nbrObjectsRemaining--;
         textField.text = "Objets restants: " + levelInfo.nbrObjectsRemaining;
     }
 }
