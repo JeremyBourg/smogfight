@@ -15,8 +15,8 @@ MonoBehaviour:
   nbrObjectsCollectGoal: 3
   nbrObjectsCollected: 0
   healthPoints: 3
-  timeRemaining: 0
-  timeLimitInSeconds: 60
-  levelName: 
+  timeRemaining: 55.558315
+  timeLimitInSeconds: 600
+  levelName: ewewewe
   playerName: 
   music: {fileID: 0}

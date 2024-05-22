@@ -7,7 +7,7 @@ public class SpawnCars : MonoBehaviour
     public Transform[] spawnPoints;
  
     void Start(){
-        InvokeRepeating("InstantiateCar", Random.Range(0.5f, 2f), Random.Range(0.5f, 3f));
+        InvokeRepeating("InstantiateCar", Random.Range(0.5f, 2f), Random.Range(0.4f, 2.6f));
     }
     void InstantiateCar()
     {

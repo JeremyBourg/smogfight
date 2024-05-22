@@ -6928,6 +6928,7 @@ GameObject:
   - component: {fileID: 1828152757776080199}
   - component: {fileID: 1824009750063580652}
   - component: {fileID: -5079117284320223554}
+  - component: {fileID: 3100477006618304963}
   m_Layer: 7
   m_Name: Lightbody_Pickup_'85_-_Low_poly_model
   m_TagString: Enemy
@@ -6949,7 +6950,7 @@ Transform:
   m_Children:
   - {fileID: 3959298971058114743}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1828152757776080199
 MonoBehaviour:
@@ -7012,6 +7013,27 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 66.14053, y: 63.464314, z: 188.44409}
   m_Center: {x: -0.95086116, y: -42.441517, z: -8.864415}
+--- !u!95 &3100477006618304963
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6515691065729406068}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 47232a208ab361e4eabdb8d7d7ab8d9d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6621955557609127865
 GameObject:
   m_ObjectHideFlags: 0

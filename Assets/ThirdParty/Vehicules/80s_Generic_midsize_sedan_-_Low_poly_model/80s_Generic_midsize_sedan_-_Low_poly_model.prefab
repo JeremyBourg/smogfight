@@ -7632,6 +7632,7 @@ GameObject:
   - component: {fileID: 8419881463071305328}
   - component: {fileID: 6780824999315388547}
   - component: {fileID: 2864926889589151797}
+  - component: {fileID: 5595381324161124969}
   m_Layer: 7
   m_Name: 80s_Generic_midsize_sedan_-_Low_poly_model
   m_TagString: Enemy
@@ -7653,7 +7654,7 @@ Transform:
   m_Children:
   - {fileID: 6274378679930056523}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &8419881463071305328
 BoxCollider:
@@ -7716,6 +7717,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   carCollisionEvent: {fileID: 0}
+--- !u!95 &5595381324161124969
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7829196820599127471}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 190ec9b48c7f5dd4ebdeac37477075f1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &7907045492690562259
 GameObject:
   m_ObjectHideFlags: 0

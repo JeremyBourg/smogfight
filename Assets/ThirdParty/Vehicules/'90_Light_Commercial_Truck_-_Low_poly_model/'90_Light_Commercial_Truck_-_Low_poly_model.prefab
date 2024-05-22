@@ -5379,6 +5379,7 @@ GameObject:
   - component: {fileID: 3836703925735354933}
   - component: {fileID: 453143499768696229}
   - component: {fileID: 8591341954261355961}
+  - component: {fileID: 2013073267649559889}
   m_Layer: 7
   m_Name: '''90_Light_Commercial_Truck_-_Low_poly_model'
   m_TagString: Enemy
@@ -5400,7 +5401,7 @@ Transform:
   m_Children:
   - {fileID: 6956726267507552064}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3836703925735354933
 MonoBehaviour:
@@ -5463,6 +5464,27 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 79.57606, y: 111.32422, z: 230.73772}
   m_Center: {x: 1.238118, y: -55.16213, z: 8.490094}
+--- !u!95 &2013073267649559889
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6145776993006890947}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ed2629b9d799b5642b9c0f8fd07f17ad, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6206991358494703659
 GameObject:
   m_ObjectHideFlags: 0

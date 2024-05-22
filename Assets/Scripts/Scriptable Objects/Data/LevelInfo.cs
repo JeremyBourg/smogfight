@@ -4,11 +4,12 @@ using UnityEngine;
 public class LevelInfo : ScriptableObject
 {
     public int nbrObjectsCollectGoal;
-    public int nbrObjectsCollected;
+    public int nbrObjectsRemaining;
     public int healthPoints;
     public float timeRemaining;
     public int timeLimitInSeconds;
     public string levelName;
     public string playerName;
+    public bool hasObject = false;
     public AudioClip music;
 }

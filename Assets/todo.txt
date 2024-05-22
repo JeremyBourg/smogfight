@@ -2,29 +2,25 @@ Supprimer quand élément fini
 
 Environnement:
 
-Trouver textures pour terrain
-Trouver textures trottoir (béton)
-Trouver modèles : Fleurs, voitures, décorations de parc, pancarte (pour nom ville)
-
-Intégrer trottoir et tous les modèles.
+Intégrer et tous les modèles.
 S'assurer que les objets on des colliders.
 
-Ennemi:
+Musique accueil
+musique jeu
 
-Trouver modèle pour nuage
-Faire NavMesh
-Animer roues voitures, faire script collision = lose hp
-Ajouter Exhaust smoke
+4 sons 2D
+    Cough
+    Car crash
+    Pickup
 
-Collecte:
-Trouver modèles déchets
-Trouver modèle bac à déchets
+4 sons 3D
+    Voiture moteur
+    Usine
+    Poubelle animation
+    Son eolienne
 
 UI
 Trouver assets UI
-Trouver background pour scène accueil
 
-Système HP
-Système Timer
-
+Script fin
 Scène fin

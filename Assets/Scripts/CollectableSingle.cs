@@ -5,16 +5,27 @@ using UnityEngine;
 
 public class CollectableSingle : MonoBehaviour
 {
-
+    public LevelInfo levelInfo;
     [SerializeField]
-    private CollectableObjects pickUpItemType;
-
-    public GameEvent pickUpObjectEvent;
+    private Transform handPosition;
+    private bool isPickedUp = false;
 
     private void OnTriggerEnter(Collider other) {
-        if(other.CompareTag("Player")){
-            Debug.Log("Bravo!");
-            pickUpObjectEvent.Raise(this, pickUpItemType.point);
+        if(other.CompareTag("Player") && levelInfo.hasObject == false){
+            levelInfo.hasObject = true;
+            isPickedUp = true;
+        }
+    }
+
+    private void Update() {
+        if(isPickedUp){
+            gameObject.transform.position = handPosition.position;
+        }
+    }
+    
+    public void DestroyItem() {
+        if(isPickedUp){
+            Destroy(gameObject);
         }
     }
 }

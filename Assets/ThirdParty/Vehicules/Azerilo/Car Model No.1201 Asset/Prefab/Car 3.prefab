@@ -631,6 +631,7 @@ GameObject:
   - component: {fileID: 4460567204756677741}
   - component: {fileID: 8289351576233714299}
   - component: {fileID: -3722268114199201649}
+  - component: {fileID: 2994982894027835430}
   m_Layer: 7
   m_Name: Car 3
   m_TagString: Enemy
@@ -719,6 +720,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   carCollisionEvent: {fileID: 0}
+--- !u!95 &2994982894027835430
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239628981513944}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 64c95be90e7572f49952f0ce835993dd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1260126679225384
 GameObject:
   m_ObjectHideFlags: 0

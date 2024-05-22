@@ -1,0 +1,11 @@
+Model Information:
+* title:	Game Ready Wind Turbine (Animated)
+* source:	https://sketchfab.com/3d-models/game-ready-wind-turbine-animated-72cf2bacbe3e4bb9901280be9ce96514
+* author:	ThomasRedfern12 (https://sketchfab.com/ThomasRedfern12)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Game Ready Wind Turbine (Animated)" (https://sketchfab.com/3d-models/game-ready-wind-turbine-animated-72cf2bacbe3e4bb9901280be9ce96514) by ThomasRedfern12 (https://sketchfab.com/ThomasRedfern12) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

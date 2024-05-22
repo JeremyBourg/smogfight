@@ -5,7 +5,7 @@ using UnityEngine;
 public class MoveCar : MonoBehaviour
 {
 
-   private float speed = 25;
+   private float speed = 28;
    
    public GameEvent carCollisionEvent;
 

@@ -21,6 +21,6 @@ public class TimerUpdate : MonoBehaviour
 
         TimeSpan ts = TimeSpan.FromSeconds(time);
 
-        timerText.text = string.Format("{0:00}:{1:00}:{2:000}", ts.Minutes);
+        timerText.text = string.Format("{0:00}:{1:00}:{2:000}", ts.Minutes, ts.Seconds, ts.Milliseconds);
     }
 }

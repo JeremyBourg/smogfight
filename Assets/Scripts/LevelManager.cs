@@ -11,12 +11,6 @@ public class LevelManager : MonoBehaviour
     [SerializeField]
     private LevelInfo levelInfo;
 
-    public void PickUpObject(Component sender, object data){
-        Debug.Log("Score: " + data);
-        
-        levelInfo.nbrObjectsCollected++;
-    }
-
     public void UpdatePlayerName(string inputPlayerName){
         levelInfo.playerName = inputPlayerName;
     }
@@ -43,6 +37,12 @@ public class LevelManager : MonoBehaviour
 
     private void Start() {
         levelInfo.healthPoints = 3;
+        levelInfo.hasObject = false;
+        if(SceneManager.GetActiveScene().name == "SceneAccueil"){
+            levelInfo.playerName = "";
+            levelInfo.levelName = "";
+        }
+        
     }
 
     public void ContactWithEnemy(){
@@ -50,5 +50,10 @@ public class LevelManager : MonoBehaviour
         if(levelInfo.healthPoints <= 0){
             SceneManager.LoadScene("SceneLose");
         }  
+    }
+
+    public void TrashItemEvent() {
+        levelInfo.nbrObjectsRemaining--;
+        levelInfo.hasObject=false;
     }
 }
