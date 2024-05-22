@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96165b67f384d0149b9510e662396ef4, type: 3}
   m_Name: Level1Info
   m_EditorClassIdentifier: 
-  nbrObjectsCollectGoal: 3
-  nbrObjectsCollected: 0
-  healthPoints: 3
-  timeRemaining: 55.558315
+  nbrObjectsCollectGoal: 17
+  nbrObjectsRemaining: 0
+  healthPoints: 1
+  timeRemaining: 495.5878
   timeLimitInSeconds: 600
-  levelName: ewewewe
-  playerName: 
+  levelName: smog creata
+  playerName: smog killa
+  hasObject: 0
   music: {fileID: 0}

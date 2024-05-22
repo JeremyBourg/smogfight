@@ -1,9 +1,6 @@
 Supprimer quand élément fini
 
-Environnement:
-
-Intégrer et tous les modèles.
-S'assurer que les objets on des colliders.
+Regler Collider un arbre
 
 Musique accueil
 musique jeu
@@ -19,8 +16,4 @@ musique jeu
     Poubelle animation
     Son eolienne
 
-UI
-Trouver assets UI
-
-Script fin
-Scène fin
+Video

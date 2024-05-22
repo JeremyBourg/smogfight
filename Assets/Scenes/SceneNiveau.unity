@@ -4280,7 +4280,7 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: a6560a915ef98420e9faacc1c7438823, type: 2}
+  sharedProfile: {fileID: 11400000, guid: d4a5f0ecd0e1b5648a106651cc9c316d, type: 2}
 --- !u!4 &832575519
 Transform:
   m_ObjectHideFlags: 0
@@ -4447,6 +4447,7 @@ GameObject:
   - component: {fileID: 888508579}
   - component: {fileID: 888508580}
   - component: {fileID: 888508581}
+  - component: {fileID: 888508582}
   m_Layer: 0
   m_Name: LevelManager
   m_TagString: Untagged
@@ -4572,6 +4573,34 @@ MonoBehaviour:
       - m_Target: {fileID: 888508577}
         m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
         m_MethodName: TrashItemEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &888508582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888508575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf6bd81949b45846bff8a155fdba47c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: ecce4769b46641e4d99ca963135207b1, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 888508577}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
+        m_MethodName: GameEnd
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8197,6 +8226,7 @@ MonoBehaviour:
   - {fileID: 626405646}
   - {fileID: 388064291}
   textField: {fileID: 1937732692}
+  GameEndEvent: {fileID: 11400000, guid: ecce4769b46641e4d99ca963135207b1, type: 2}
 --- !u!1001 &1779308222
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14826,7 +14856,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0

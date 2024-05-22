@@ -14,6 +14,8 @@ public class MessManager : MonoBehaviour
 
     [SerializeField]
     private TMP_Text textField;
+    
+    public GameEvent GameEndEvent;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,5 +27,8 @@ public class MessManager : MonoBehaviour
     public void UpdateText(){
         levelInfo.nbrObjectsRemaining--;
         textField.text = "Objets restants: " + levelInfo.nbrObjectsRemaining;
+        if(levelInfo.nbrObjectsRemaining == 0){
+            GameEndEvent.Raise();
+        }
     }
 }
