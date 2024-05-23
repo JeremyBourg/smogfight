@@ -16,16 +16,24 @@ public class CollisionManager : MonoBehaviour
     {
         initialPosition = player.transform.position;
     }
+    [SerializeField]
+    private AudioSource cough;
+    [SerializeField]
+    private AudioSource carCrash;
     
     public void HandleContact(bool car, GameObject other)
     {
         firstPersonController.enabled = false;
-        contactWithEnemyEvent.Raise();
+        contactWithEnemyEvent.Raise(null, other);
         player.transform.position = initialPosition;
         StartCoroutine(ReenableScriptAfterDelay(1f));
 
         if(car){
             Destroy(other);
+            carCrash.Play();
+        }
+        else{
+            cough.Play();
         }
     }
 

@@ -1,7 +1,5 @@
 Supprimer quand élément fini
 
-Regler Collider un arbre
-
 Musique accueil
 musique jeu
 
@@ -9,11 +7,7 @@ musique jeu
     Cough
     Car crash
     Pickup
+    Son point
 
-4 sons 3D
-    Voiture moteur
-    Usine
-    Poubelle animation
-    Son eolienne
 
 Video

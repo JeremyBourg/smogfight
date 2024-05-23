@@ -11,6 +11,8 @@ public class TrashCan : MonoBehaviour
     private LevelInfo levelInfo;
 
     public GameEvent trashItemEvent;
+    [SerializeField]
+    private AudioSource ding;
     private void Start(){
        anim = gameObject.GetComponent<Animator>();
     }
@@ -18,6 +20,7 @@ public class TrashCan : MonoBehaviour
         if(other.gameObject.CompareTag("Player") && levelInfo.hasObject){
             levelInfo.hasObject = false;
             trashItemEvent.Raise();
+            ding.Play();
         }
     }
 }

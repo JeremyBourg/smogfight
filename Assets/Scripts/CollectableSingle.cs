@@ -9,11 +9,14 @@ public class CollectableSingle : MonoBehaviour
     [SerializeField]
     private Transform handPosition;
     private bool isPickedUp = false;
+    [SerializeField] 
+    private AudioSource audioSource;
 
     private void OnTriggerEnter(Collider other) {
         if(other.CompareTag("Player") && levelInfo.hasObject == false){
             levelInfo.hasObject = true;
             isPickedUp = true;
+            audioSource.Play();
         }
     }
 
