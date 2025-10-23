@@ -8,6 +8,10 @@ Ce jeu à été réalisé dans mon cours de Conception de Jeu Vidéo 2.
 
 Le jeu à été réalisé avec Unity3D 2022.3.6f1, et il faut installer cette version pour avoir accès au projet dans l'éditeur Unity3D.
 
+## Déploiment
+
+Ce jeu n'a jamais été construit, et peut seulement être utilisé dans l'éditeur de Unity3D.
+
 ## Mentions légales
 
 Aucun asset (modèles 3D, sons, musiques, textures) ne m'apartiens et sa redistribution doit respecter la license offerte par les créateurs respectifs.
